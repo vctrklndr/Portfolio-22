@@ -1,0 +1,71 @@
+.card {
+  position: relative;
+  transform: translate(0, 0);
+  transition: 400ms transform ease-in-out;
+  &:hover {
+    cursor: url("../../Images/cursor.svg"), pointer;
+    transform: translate(-0.5rem, 0.5rem);
+    .card-shadow {
+      transform: translate(0);
+    }
+  }
+  &--reverse {
+    .card-shadow {
+      &:nth-child(2) {
+        transform: translate(0.5rem, 0.5rem);
+      }
+      &:nth-child(3) {
+        transform: translate(1rem, 1rem);
+      }
+    }
+    &:hover {
+      cursor: url("../../Images/cursor.svg"), pointer;
+      transform: translate(0.5rem, 0.5rem);
+      .card-shadow {
+        transform: translate(0);
+      }
+    }
+  }
+  &-content {
+    padding: 2rem;
+    background-color: var(--white);
+    border: 0.125rem solid var(--black);
+    border-radius: 0.625rem;
+    position: relative;
+    z-index: 3;
+  }
+  &-image {
+    padding-bottom: 56%;
+    background-color: var(--white);
+    border: 0.125rem solid var(--black);
+    border-radius: 0.625rem;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+  &-shadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 0.625rem;
+    border: 0.125rem solid var(--black);
+    transform: translate(0, 0);
+    transition: 400ms transform ease-in-out;
+    &:nth-child(2) {
+      transform: translate(-0.5rem, 0.5rem);
+      z-index: 2;
+    }
+    &:nth-child(3) {
+      transform: translate(-1rem, 1rem);
+      z-index: 1;
+    }
+  }
+}

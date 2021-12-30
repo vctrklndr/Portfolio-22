@@ -1,0 +1,93 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-gap-1 {
+  margin: 0 -1rem;
+  .column {
+    padding: 1rem;
+  }
+}
+
+.grid-gap-2 {
+  margin: 0 -2rem;
+  .column {
+    padding: 2rem;
+  }
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.size-1of1 {
+  width: 100%;
+}
+
+
+.size-1of2 {
+  width: 50%;
+}
+
+.size-2of3 {
+  width: calc(100% * 2 / 3);
+}
+
+.size-m-1of2 {
+  @include breakpoint($medium) {
+    width: 50%;
+  }
+}
+
+.size-l-1of2 {
+  @include breakpoint($large) {
+    width: 50%;
+  }
+}
+
+.size-l-1of3 {
+  @include breakpoint($large) {
+    width: calc(100% * 1 / 3);
+  }
+}
+
+.size-l-2of3 {
+  @include breakpoint($large) {
+    width: calc(100% * 2 / 3);
+  }
+}
+
+.size-l-1of4 {
+  @include breakpoint($large) {
+    width: 25%;
+  }
+}
+
+.size-l-1of5 {
+  @include breakpoint($large) {
+    width: 20%;
+  }
+}
+
+.size-l-1of6 {
+  @include breakpoint($large) {
+    width: calc(100% * 2 / 12);
+  }
+}
+
+.order-l-1 {
+  @include breakpoint($large) {
+    order: 1;
+  }
+}
+
+.order-l-0 {
+  @include breakpoint($large) {
+    order: 0;
+  }
+}

@@ -1,0 +1,7 @@
+.bg {
+  @include color-modifiers("background", "-");
+}
+
+.color {
+  @include color-modifiers("color", "-");
+}

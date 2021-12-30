@@ -1,0 +1,53 @@
+$baseFontSize: 16;
+
+$xsmall: calc(420 / $baseFontSize);
+$small: calc(544 / $baseFontSize);
+$medium: calc(768 / $baseFontSize);
+$large: calc(920 / $baseFontSize);
+$xlarge: calc(1200 / $baseFontSize);
+
+@mixin breakpoint($breakpoint) {
+  @media (min-width: #{$breakpoint + 'em'}) {
+    @content;
+  }
+}
+
+$colors: (
+  baby-blue: var(--baby-blue),
+  blue: var(--blue),
+  teal: var(--teal),
+  light-pink: var(--light-pink),
+  pink: var(--pink),
+  purple: var(--purple),
+  yellow: var(--yellow),
+  gold: var(--gold),
+  orange: var(--orange),
+  white: var(--white),
+  black: var(--black),
+);
+
+@mixin color-modifiers($attribute: "color", $prefix: "-") {
+  @each $name, $variable in $colors {
+    &#{$prefix}#{$name} {
+      #{$attribute}: $variable;
+    }
+  }
+}
+
+// $sizes: (
+//   xsm: $xsmall,
+//   sm: $small,
+//   m: $medium,
+//   l: $large,
+//   xl: $xlarge,
+// );
+
+// @mixin grid-sizes($size: "", $width: null, $prefix: "-") {
+//   @each $name, $breakpoint in $sizes {
+//     &#{$prefix}#{$name}#{$prefix}#{$size} {
+//      @include breakpoint($breakpoint) {
+//        width: $width;
+//      }
+//     }
+//   }
+// }
