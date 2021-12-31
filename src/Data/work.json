@@ -1,0 +1,108 @@
+[
+  {
+    "title": "Wexter",
+    "href": "https://www.wexter.se",
+    "description": "New website and frontend for new Wexter web",
+    "hashtags": "#html #php #css #sass #js #jquery #wordpress",
+    "colors": ["bg-gold", "bg-almost-white"],
+    "reverse": true
+  },
+  {
+    "title": "Upstream",
+    "href": "https://www.upstream.se",
+    "description": "New website and frontend for new Upstream web",
+    "hashtags": "#html #php #css #sass #js #jquery #wordpress",
+    "colors": ["bg-baby-blue", "bg-blue"],
+    "reverse": false
+  },
+  {
+    "title": "Efemia",
+    "href": "https://www.efemia.se",
+    "description": "New website and frontend for new Efemia web",
+    "hashtags": "#html #php #css #sass #js #jquery #wordpress",
+    "colors": ["bg-pink", "bg-light-pink"],
+    "reverse": true
+  },
+  {
+    "title": "Verbal",
+    "href": "https://www.verbal.se",
+    "description": "Frontend for Verbal web",
+    "hashtags": "#html #php #css #sass #js #jquery #wordpress",
+    "colors": ["bg-purple", "bg-pink"],
+    "reverse": false
+  },
+  {
+    "title": "Sector Alarm",
+    "href": "https://www.sectoralarm.se",
+    "description": "Frontend for Sector Alarms new public web",
+    "hashtags": "#html #nunjucks #fractal #css #less #js #vanilla #jquery",
+    "colors": ["bg-almost-white", "bg-red"],
+    "reverse": true
+  },
+  {
+    "title": "Beambox",
+    "href": "",
+    "description": "Frontend for Beambox web",
+    "hashtags": "#html #razor #css #less",
+    "colors": ["bg-purple", "bg-light-pink"],
+    "reverse": false,
+    "offline": true
+  },
+  {
+    "title": "Nicke Borg",
+    "href": "http://www.nickeborg.com",
+    "description": "Basic new website for Nicke Borg Homeland",
+    "hashtags": "#html #css",
+    "colors": ["bg-teal", "bg-blue"],
+    "reverse": true
+  },
+  {
+    "title": "Musikinstitutet",
+    "href": "https://axelferb.github.io/Gruppuppgift_TBA/",
+    "description": "School assignment in Vanilla JS",
+    "hashtags": "#html #css #sass #js #vanilla",
+    "colors": ["bg-pink", "bg-purple"],
+    "reverse": false
+  },
+  {
+    "title": "React JS Dashboard",
+    "href": "https://vctrklndr.github.io/React-Dashboard/",
+    "description": "School assignment for a dashboard in React JS",
+    "hashtags": "#html #css #sass #js #vanilla",
+    "colors": ["bg-pink", "bg-blue"],
+    "reverse": true
+  },
+  {
+    "title": "Ajax API",
+    "href": "https://vctrklndr.github.io/JavaScript-AJAX/",
+    "description": "School assignment handling API in Ajax JS",
+    "hashtags": "#html #css #sass #js #vanilla",
+    "colors": ["bg-light-pink", "bg-gold"],
+    "reverse": false
+  },
+  {
+    "title": "Vanilla JS Todo",
+    "href": "https://vctrklndr.github.io/JavaScript-to_do/",
+    "description": "School assignment for a to do list in Vanilla JS",
+    "hashtags": "#html #css #sass #js #vanilla",
+    "colors": ["bg-baby-blue", "bg-pink"],
+    "reverse": true
+  },
+  {
+    "title": "Washi",
+    "href": "https://github.com/vctrklndr/washi",
+    "description": "School assignment making a laundry booking system",
+    "hashtags": "#html #css #less #js #vue",
+    "colors": ["bg-blue", "bg-almost-white"],
+    "reverse": false
+  },
+  {
+    "title": "Mobergs Bistro",
+    "href": "",
+    "description": "Website for restaurant Mobergs Bistro",
+    "hashtags": "#html #php #css #sass #js #jquery",
+    "colors": ["bg-teal", "bg-purple"],
+    "reverse": true,
+    "offline": true
+  }
+]

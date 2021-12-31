@@ -17,3 +17,56 @@
     position: absolute;
   }
 }
+
+.smiley {
+  width: 100%;
+  background-color: var(--yellow);
+  padding-bottom: calc(100% - 2rem);
+  border-radius: 100%;
+  border: 1rem solid var(--black);
+  transition: 800ms transform ease-in-out;
+  position: relative;
+  overflow: hidden;
+  transform: rotate(-10deg);
+  &:hover {
+    transform: rotate(360deg);
+  }
+  .eye {
+    position: absolute;
+    width: 2rem;
+    height: 4.5rem;
+    background: var(--black);
+    z-index: 1;
+    &--left {
+      top: 20%;
+      left: 35%;
+    }
+    &--right {
+      top: 20%;
+      right: 35%;
+    }
+  }
+  .mouth {
+    width: 70%;
+    height: 70%;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1.5rem var(--black);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &:before {
+      content: "";
+      width: calc(100% + 3.5rem);
+      height: calc(55% + 1.5rem);
+      display: block;
+      background: var(--yellow);
+      position: absolute;
+      top: -1.75rem;
+      left: -1.75rem;
+    }
+  }
+}
