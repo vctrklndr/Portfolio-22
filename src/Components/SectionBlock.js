@@ -68,7 +68,7 @@ class SectionBlock extends React.Component {
     const cardShadows = this.props.shadowColors.map((color) =>
       <div key={color} className={"card-shadow " + color} />
     );
-    const renderOfflineItem = this.props.offline ? <li className="color-orange">Offline</li> : null;
+    const renderOfflineItem = this.props.offline ? <li className="color-orange text-offline">Offline</li> : null;
     const offline = this.props.offline;
     return (
       <section className="grid align-center">

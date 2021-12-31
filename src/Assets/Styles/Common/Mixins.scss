@@ -13,19 +13,19 @@ $xlarge: calc(1200 / $baseFontSize);
 }
 
 $colors: (
-  baby-blue: var(--baby-blue),
-  blue: var(--blue),
-  teal: var(--teal),
-  light-pink: var(--light-pink),
-  pink: var(--pink),
-  purple: var(--purple),
-  yellow: var(--yellow),
-  gold: var(--gold),
-  orange: var(--orange),
-  red: var(--red),
-  almost-white: var(--almost-white),
-  white: var(--white),
-  black: var(--black),
+  "baby-blue": var(--baby-blue),
+  "blue": var(--blue),
+  "teal": var(--teal),
+  "light-pink": var(--light-pink),
+  "pink": var(--pink),
+  "purple": var(--purple),
+  "yellow": var(--yellow),
+  "gold": var(--gold),
+  "orange": var(--orange),
+  "red": var(--red),
+  "almost-white": var(--almost-white),
+  "white": var(--white),
+  "black": var(--black),
 );
 
 @mixin color-modifiers($attribute: "color", $prefix: "-") {
@@ -35,21 +35,3 @@ $colors: (
     }
   }
 }
-
-// $sizes: (
-//   xsm: $xsmall,
-//   sm: $small,
-//   m: $medium,
-//   l: $large,
-//   xl: $xlarge,
-// );
-
-// @mixin grid-sizes($size: "", $width: null, $prefix: "-") {
-//   @each $name, $breakpoint in $sizes {
-//     &#{$prefix}#{$name}#{$prefix}#{$size} {
-//      @include breakpoint($breakpoint) {
-//        width: $width;
-//      }
-//     }
-//   }
-// }
