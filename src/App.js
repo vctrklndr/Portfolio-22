@@ -4,6 +4,9 @@ import Victor from './Assets/Images/victor.jpg';
 import Verbal from './Assets/Images/verbal.jpg';
 import SectorAlarm from './Assets/Images/sector_alarm.jpg';
 import Beambox from './Assets/Images/beambox.jpg';
+import NickeBorg from './Assets/Images/nicke_borg.jpg';
+import Music from './Assets/Images/music.png';
+import Dashboard from './Assets/Images/dashboard.jpg';
 import "./Assets/Styles/App.scss";
 
 function App() {
@@ -31,7 +34,6 @@ function App() {
           title="Verbal"
           description="Frontend for Verbal web"
           hashtags="#html #php #cssl #sass #js #jquery #wordpress"
-          reverse={false}
           shadowColors={['bg-purple', 'bg-pink']}
         />
 
@@ -41,7 +43,7 @@ function App() {
           description="Frontend for Sector Alarms new public web"
           hashtags="#html #nunjucks #fractal #css #less #js #vanilla #jquery"
           reverse={true}
-          shadowColors={['bg-gold', 'bg-pink']}
+          shadowColors={['bg-red', 'bg-orange']}
         />
 
         <SectionBlock
@@ -49,11 +51,35 @@ function App() {
           title="Beambox"
           description="Frontend for Beambox web"
           hashtags="#html #razor #css #less"
-          reverse={false}
           shadowColors={['bg-purple', 'bg-light-pink']}
           offline={true}
         />
 
+        <SectionBlock
+          image={NickeBorg}
+          title="Nicke Borg"
+          description="Basic new website for Nicke Borg Homeland"
+          hashtags="#html #css"
+          reverse={true}
+          shadowColors={['bg-teal', 'bg-blue']}
+        />
+
+        <SectionBlock
+          image={Music}
+          title="Musikinstitutet"
+          description="School assignment in Vanilla JS"
+          hashtags="#html #css #sass #js #vanilla"
+          shadowColors={['bg-gold', 'bg-yellow']}
+        />
+
+        <SectionBlock
+          image={Dashboard}
+          title="React JS Dashboard"
+          description="School assignment for a dashboard in React JS"
+          hashtags="#html #css #js #react"
+          shadowColors={['bg-pink', 'bg-blue']}
+          reverse={true}
+        />
         <Logos />
       </div>
     </main>
