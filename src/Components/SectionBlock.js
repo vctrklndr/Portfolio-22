@@ -18,7 +18,6 @@ import MobergsBistro from '../Assets/Images/mobergs_bistro.png';
 class SectionBlock extends React.Component {
   renderImage = () => {
     const title = this.props.title;
-    
     switch (title) {
       case 'Wexter':
         return <img src={Wexter} alt={this.props.title} />;
@@ -63,6 +62,7 @@ class SectionBlock extends React.Component {
         return null
     }
   }
+
   render() {
     const isReversed = this.props.reverse;
     const cardShadows = this.props.shadowColors.map((color) =>
