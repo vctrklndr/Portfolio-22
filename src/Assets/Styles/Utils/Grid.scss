@@ -5,11 +5,11 @@
 
 .column {
   padding: 1rem;
-  @media screen and (min-width: $bpMedium) {
+  @include breakpoint($medium) {
     padding: 1rem 1.5rem;
   }
 
-  @media screen and (min-width: $bpLarge) {
+  @include breakpoint($large) {
     padding: 2rem;
   }
 }
@@ -27,34 +27,34 @@
 
 .size-1of2 {
   width: 100%;
-  @media screen and (min-width: $bpMedium) {
+  @include breakpoint($medium) {
     width: 50%;
   }
 }
 
 .size-1of3 {
   width: 100%;
-  @media screen and (min-width: $bpMedium) {
+  @include breakpoint($medium) {
     width: calc(100% * 1 / 3);
   }
 }
 
 .size-2of3 {
   width: 100%;
-  @media screen and (min-width: $bpMedium) {
+  @include breakpoint($medium) {
     width: calc(100% * 2 / 3);
   }
 }
 
 .size-1of6 {
   width: 50%;
-  @media screen and (min-width: $bpLarge) {
+  @include breakpoint($large) {
     width: calc(100% * 2 / 12);
   }
 }
 
 .order-1 {
-  @media screen and (min-width: $bpMedium) {
+  @include breakpoint($medium) {
     order: 1;
   }
 }

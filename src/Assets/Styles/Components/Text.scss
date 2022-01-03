@@ -3,7 +3,7 @@ p,
   font-size: 0.875rem;
   letter-spacing: 0.03125rem;
   line-height: 1.7;
-  @media screen and (min-width: $bpMedium) {
+  @include breakpoint($medium) {
     font-size: 1rem;
   }
 }
