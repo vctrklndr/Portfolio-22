@@ -1,10 +1,19 @@
-p {
+p,
+.text-default {
+  font-size: 0.875rem;
   letter-spacing: 0.03125rem;
   line-height: 1.7;
+  @include breakpoint($medium) {
+    font-size: 1rem;
+  }
 }
 
 .monotype {
   font-family: "GT-Pressura-Mono-Regular", monospace;
+}
+
+.text-small {
+  font-size: 0.75rem;
 }
 
 .text-uppercase {
@@ -16,12 +25,12 @@ p {
 }
 
 .text-border {
-  border-bottom: .125rem solid black;
+  border-bottom: 0.125rem solid black;
 }
 
 .text-offline {
-  font-family: "Manrope-ExtraBold";
-  font-weight: 800;
+  font-family: "GT-Pressura-Mono-Regular", monospace;
+  color: var(--red);
   letter-spacing: 0.03125rem;
   line-height: 1.7;
 }

@@ -1,23 +1,23 @@
-import React from "react";
-import SectionBlock from "./SectionBlock";
-import Data from '../Data/work.json';
+import Section from "./Section";
+import { Data } from './Data';
 
 function Portfolio() {
-  const renderSectionBlocks = Data.map((data) =>
-    <SectionBlock
+  const renderSections = Data.map((data, index) =>
+    <Section
       key={data.title}
+      image={data.image}
       title={data.title}
       href={data.href}
       description={data.description}
       hashtags={data.hashtags}
       shadowColors={data.colors}
-      reverse={data.reverse}
+      reverse={(index % 2 === 1) ? true : false}
       offline={data.offline}
     />
   );
   return (
     <>
-      {renderSectionBlocks}
+      {renderSections}
     </>
   );
 }

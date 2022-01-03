@@ -5,31 +5,14 @@
 
 .column {
   padding: 1rem;
+  @include breakpoint($medium) {
+    padding: 1rem 1.5rem;
+  }
+
   @include breakpoint($large) {
     padding: 2rem;
   }
 }
-
-// .grid-gap-1 {
-//   margin: 0 -1rem;
-//   .column {
-//     padding: 1rem;
-//   }
-// }
-
-// .grid-gap-2 {
-//   margin: -1rem 0;
-//   .column {
-//     padding: 1rem;
-//   }
-//   @include breakpoint($large) {
-//     margin: 0 -2rem;
-//     .column {
-//       padding: 2rem;
-//     }
-//   }
-// }
-
 .align-center {
   align-items: center;
 }

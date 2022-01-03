@@ -16,6 +16,7 @@ $colors: (
   "baby-blue": var(--baby-blue),
   "blue": var(--blue),
   "teal": var(--teal),
+  "green": var(--green),
   "light-pink": var(--light-pink),
   "pink": var(--pink),
   "purple": var(--purple),
@@ -26,6 +27,14 @@ $colors: (
   "almost-white": var(--almost-white),
   "white": var(--white),
   "black": var(--black),
+  "almost-black": var(--almost-black),
+  "editor-black": var(--editor-black),
+  "editor-blue": var(--editor-blue),
+  "editor-yellow": var(--editor-yellow),
+  "editor-green": var(--editor-green),
+  "editor-teal": var(--editor-teal),
+  "editor-red": var(--editor-red),
+  "editor-purple": var(--editor-purple),
 );
 
 @mixin color-modifiers($attribute: "color", $prefix: "-") {

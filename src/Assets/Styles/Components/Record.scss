@@ -1,0 +1,86 @@
+.record-container {
+  margin: 0 auto;
+  background-color: red;
+  height: 197px;
+  width: 197px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: " ";
+    position: absolute;
+    left: 15%;
+    top: -91px;
+    width: 142px;
+    height: 147px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, black, transparent);
+    z-index: 1;
+  }
+  &::after {
+    content: " ";
+    position: absolute;
+    left: 15%;
+    top: 117px;
+    width: 142px;
+    height: 147px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, black, transparent);
+    z-index: 1;
+  }
+}
+
+.record {
+  width: 5px;
+  height: 5px;
+  background: var(--baby-blue);
+  border-radius: 50%;
+  position: absolute;
+  animation: spin 900ms linear infinite;
+  box-shadow: 0 0 0 1.25rem var(--red), 0 0 0 2.25rem var(--black), 0 0 0 2.28125rem var(--almost-black), 0 0 0 2.3125rem var(--black), 0 0 0 2.34375rem var(--almost-black),
+    0 0 0 2.375rem var(--black), 0 0 0 2.40625rem var(--almost-black), 0 0 0 2.4375rem var(--black), 0 0 0 2.46875rem var(--almost-black), 0 0 0 2.5rem var(--black),
+    0 0 0 2.53125rem var(--almost-black), 0 0 0 2.5625rem var(--black), 0 0 0 2.59375rem var(--almost-black), 0 0 0 2.625rem var(--black), 0 0 0 2.65625rem var(--almost-black),
+    0 0 0 2.6875rem var(--black), 0 0 0 2.71875rem var(--almost-black), 0 0 0 2.75rem var(--black), 0 0 0 2.78125rem var(--almost-black), 0 0 0 2.8125rem var(--black),
+    0 0 0 2.84375rem var(--almost-black), 0 0 0 2.875rem var(--black), 0 0 0 2.90625rem var(--almost-black), 0 0 0 2.9375rem var(--black), 0 0 0 2.96875rem var(--almost-black), 0 0 0 3rem var(--black),
+    0 0 0 3.03125rem var(--almost-black), 0 0 0 3.0625rem var(--black), 0 0 0 3.09375rem var(--almost-black), 0 0 0 3.125rem var(--black), 0 0 0 3.15625rem var(--almost-black),
+    0 0 0 3.1875rem var(--black), 0 0 0 3.21875rem var(--almost-black), 0 0 0 3.25rem var(--black), 0 0 0 3.28125rem var(--almost-black), 0 0 0 3.3125rem var(--black),
+    0 0 0 3.34375rem var(--almost-black), 0 0 0 3.375rem var(--black), 0 0 0 3.40625rem var(--almost-black), 0 0 0 3.4375rem var(--black), 0 0 0 3.46875rem var(--almost-black),
+    0 0 0 3.5rem var(--black), 0 0 0 3.53125rem var(--almost-black), 0 0 0 3.5625rem var(--black), 0 0 0 3.59375rem var(--almost-black), 0 0 0 3.625rem var(--black),
+    0 0 0 3.65625rem var(--almost-black), 0 0 0 3.6875rem var(--black), 0 0 0 3.71875rem var(--almost-black), 0 0 0 3.75rem var(--black), 0 0 0 3.78125rem var(--almost-black),
+    0 0 0 3.8125rem var(--black), 0 0 0 3.84375rem var(--almost-black), 0 0 0 3.875rem var(--black), 0 0 0 3.90625rem var(--almost-black), 0 0 0 3.9375rem var(--black),
+    0 0 0 3.96875rem var(--almost-black), 0 0 0 4rem var(--black), 0 0 0 4.03125rem var(--almost-black), 0 0 0 4.0625rem var(--black), 0 0 0 4.09375rem var(--almost-black), 0 0 0 4.125rem var(--black),
+    0 0 0 4.15625rem var(--almost-black), 0 0 0 4.1875rem var(--black), 0 0 0 4.21875rem var(--almost-black), 0 0 0 4.25rem var(--black), 0 0 0 4.28125rem var(--almost-black),
+    0 0 0 4.3125rem var(--black), 0 0 0 4.34375rem var(--almost-black), 0 0 0 4.375rem var(--black), 0 0 0 4.40625rem var(--almost-black), 0 0 0 4.4375rem var(--black),
+    0 0 0 4.46875rem var(--almost-black), 0 0 0 4.5rem var(--black), 0 0 0 4.53125rem var(--almost-black), 0 0 0 4.5625rem var(--black), 0 0 0 4.59375rem var(--almost-black),
+    0 0 0 4.625rem var(--black), 0 0 0 4.65625rem var(--almost-black), 0 0 0 4.6875rem var(--black), 0 0 0 4.71875rem var(--almost-black), 0 0 0 4.75rem var(--black),
+    0 0 0 4.78125rem var(--almost-black), 0 0 0 4.8125rem var(--black), 0 0 0 4.84375rem var(--almost-black), 0 0 0 4.875rem var(--black), 0 0 0 4.90625rem var(--almost-black),
+    0 0 0 4.9375rem var(--black), 0 0 0 4.96875rem var(--almost-black), 0 0 0 5rem var(--black), 0 0 0 5.03125rem var(--almost-black), 0 0 0 5.0625rem var(--black),
+    0 0 0 5.09375rem var(--almost-black), 0 0 0 5.125rem var(--black), 0 0 0 5.15625rem var(--almost-black), 0 0 0 5.1875rem var(--black), 0 0 0 5.21875rem var(--almost-black),
+    0 0 0 5.25rem var(--black), 0 0 0 5.28125rem var(--almost-black), 0 0 0 5.3125rem var(--black), 0 0 0 5.34375rem var(--almost-black), 0 0 0 5.375rem var(--black),
+    0 0 0 5.40625rem var(--almost-black), 0 0 0 5.4375rem var(--black), 0 0 0 5.46875rem var(--almost-black), 0 0 0 5.5rem var(--black), 0 0 0 5.53125rem var(--almost-black),
+    0 0 0 5.5625rem var(--black), 0 0 0 5.59375rem var(--almost-black), 0 0 0 5.625rem var(--black), 0 0 0 5.65625rem var(--almost-black), 0 0 0 5.6875rem var(--black),
+    0 0 0 5.71875rem var(--almost-black), 0 0 0 5.75rem var(--black), 0 0 0 5.78125rem var(--almost-black), 0 0 0 5.8125rem var(--black), 0 0 0 5.84375rem var(--almost-black),
+    0 0 0 5.875rem var(--black), 0 0 0 5.90625rem var(--almost-black), 0 0 0 5.9375rem var(--black), 0 0 0 5.96875rem var(--almost-black), 0 0 0 6rem var(--black);
+  &::before {
+    content: "Boney M.";
+    font-size: 4px;
+    position: absolute;
+    right: -6px;
+    top: -9px;
+    text-align: center;
+    width: max-content;
+  }
+  &::after {
+    content: "Daddy Cool \A 1976";
+    white-space: pre-wrap;
+    font-size: 3px;
+    position: absolute;
+    right: -5px;
+    top: 10px;
+    text-align: center;
+    width: max-content;
+  }
+}

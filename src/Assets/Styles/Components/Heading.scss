@@ -4,13 +4,22 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Manrope-ExtraBold";
-  font-variation-settings: "wght" 800;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
   line-height: 1;
 }
 
 .heading {
+  margin-bottom: .75rem;
+  font-size: 1.17rem;
+  @include breakpoint($medium) {
+    margin-bottom: 1.125rem;
+    font-size: 1.5rem;
+  }
   &--large {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    @include breakpoint($medium) {
+      font-size: 2rem;
+    }
   }
 }

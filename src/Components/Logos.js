@@ -1,10 +1,7 @@
-
-import React from "react";
 import Dazy from '../Assets/Images/dazy-logo.png';
 import MakingWaves from '../Assets/Images/mw-logo.png';
 
-function Logos(props) {
-
+function Logos() {
   return (
     <section className="section text-center">
       <h3 className="text-border inline-block">Places I've been</h3>
