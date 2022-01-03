@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio-22/static/css/main.4838361b.css",
+    "main.js": "/Portfolio-22/static/js/main.e92eb384.js",
+    "static/js/787.824b4ffb.chunk.js": "/Portfolio-22/static/js/787.824b4ffb.chunk.js",
+    "static/media/efemia.png": "/Portfolio-22/static/media/efemia.573796777716af031eaa.png",
+    "static/media/verbal.jpg": "/Portfolio-22/static/media/verbal.2c5adfbb32f65581d142.jpg",
+    "static/media/wexter.png": "/Portfolio-22/static/media/wexter.55795a8a56c8b720704c.png",
+    "static/media/upstream.png": "/Portfolio-22/static/media/upstream.923ba0096237e20528d9.png",
+    "static/media/ichores.png": "/Portfolio-22/static/media/ichores.869922e61534a4001685.png",
+    "static/media/music.png": "/Portfolio-22/static/media/music.d8ee4d564f0ae2fb3159.png",
+    "static/media/nicke_borg.jpg": "/Portfolio-22/static/media/nicke_borg.2cebe4c2ed580fc8a8c8.jpg",
+    "static/media/sector_alarm.jpg": "/Portfolio-22/static/media/sector_alarm.8fafb3db5ba8335994a9.jpg",
+    "static/media/dashboard.jpg": "/Portfolio-22/static/media/dashboard.5d6dc3b65d2c15971a90.jpg",
+    "static/media/beambox.jpg": "/Portfolio-22/static/media/beambox.dcb5b6276d4aea0ad3b6.jpg",
+    "static/media/GT-Pressura-Mono-Regular.ttf": "/Portfolio-22/static/media/GT-Pressura-Mono-Regular.8c26c7aa177e2bd2142d.ttf",
+    "static/media/punk_beer.png": "/Portfolio-22/static/media/punk_beer.f25af071347fcb4423c3.png",
+    "static/media/mobergs_bistro.png": "/Portfolio-22/static/media/mobergs_bistro.9189bdabc75be023f8c3.png",
+    "static/media/mw-logo.png": "/Portfolio-22/static/media/mw-logo.fec70b28bc7a4bb18204.png",
+    "static/media/washi.png": "/Portfolio-22/static/media/washi.488a8716e0ab386d6090.png",
+    "static/media/cursor-auto.svg": "/Portfolio-22/static/media/cursor-auto.5ef686a9941e7bad4e61.svg",
+    "index.html": "/Portfolio-22/index.html",
+    "static/media/cursor-pointer.svg": "/Portfolio-22/static/media/cursor-pointer.2bfcb5b16e18b14b9029.svg",
+    "main.4838361b.css.map": "/Portfolio-22/static/css/main.4838361b.css.map",
+    "main.e92eb384.js.map": "/Portfolio-22/static/js/main.e92eb384.js.map",
+    "787.824b4ffb.chunk.js.map": "/Portfolio-22/static/js/787.824b4ffb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4838361b.css",
+    "static/js/main.e92eb384.js"
+  ]
+}
