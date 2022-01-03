@@ -22,7 +22,7 @@ a {
 
 .section {
   padding: 2rem 1rem;
-  @include breakpoint($large) {
+  @media screen and (min-width: $bpLarge) {
     padding: 4rem 5rem;
   }
 }

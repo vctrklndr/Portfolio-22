@@ -10,15 +10,15 @@ h6 {
 }
 
 .heading {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
   font-size: 1.17rem;
-  @include breakpoint($medium) {
+  @media screen and (min-width: $bpMedium) {
     margin-bottom: 1.125rem;
     font-size: 1.5rem;
   }
   &--large {
     font-size: 1.5rem;
-    @include breakpoint($medium) {
+    @media screen and (min-width: $bpMedium) {
       font-size: 2rem;
     }
   }

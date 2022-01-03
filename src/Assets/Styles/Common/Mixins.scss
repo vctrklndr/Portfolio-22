@@ -1,14 +1,8 @@
 $baseFontSize: 16;
 
-$medium: 768px;
-$large: 920px;
-$xlarge: 1200px;
-
-@mixin breakpoint($breakpoint) {
-  @media (min-width: #{$breakpoint}) {
-    @content;
-  }
-}
+$bpMedium: 768px;
+$bpLarge: 920px;
+$bpXlarge: 1200px;
 
 $colors: (
   "baby-blue": var(--baby-blue),

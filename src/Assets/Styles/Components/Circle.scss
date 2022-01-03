@@ -17,7 +17,7 @@
     }
   }
   &-shadow {
-    @include breakpoint($medium) {
+    @media screen and (min-width: $bpMedium) {
       display: block;
       width: 100%;
       height: 100%;
