@@ -1,13 +1,11 @@
 $baseFontSize: 16;
 
-$xsmall: calc(420 / $baseFontSize);
-$small: calc(544 / $baseFontSize);
-$medium: calc(768 / $baseFontSize);
-$large: calc(920 / $baseFontSize);
-$xlarge: calc(1200 / $baseFontSize);
+$medium: 768px;
+$large: 920px;
+$xlarge: 1200px;
 
 @mixin breakpoint($breakpoint) {
-  @media (min-width: #{$breakpoint + 'em'}) {
+  @media (min-width: #{$breakpoint}) {
     @content;
   }
 }
