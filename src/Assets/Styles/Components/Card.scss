@@ -37,7 +37,6 @@
   }
   &-content {
     padding: 1.5rem;
-    background-color: var(--white);
     border: 0.125rem solid var(--editor-black);
     border-radius: 0.625rem;
     position: relative;
@@ -48,7 +47,7 @@
   }
   &-image {
     padding-bottom: 56%;
-    background-color: var(--white);
+    background-color: var(--black);
     border: 0.125rem solid var(--black);
     border-radius: 0.625rem;
     position: relative;
