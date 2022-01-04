@@ -23,14 +23,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "plugin:flowtype/recommended",
-      "airbnb",
-      "prettier",
-      "prettier/react"
-    ],
-    "plugins": [
-      "prettier",
-      "flowtype"
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {
