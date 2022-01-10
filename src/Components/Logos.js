@@ -3,7 +3,7 @@ import MakingWaves from '../Assets/Images/mw-logo.png';
 
 function Logos() {
   return (
-    <section className="section text-center">
+    <section className="section padding-bz text-center">
       <h3 className="text-border inline-block">Places I've been</h3>
       <div className="grid grid-gap-2 align-center justify-center">
         <div className="column size-1of6">

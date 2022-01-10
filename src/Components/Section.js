@@ -26,8 +26,8 @@ function Section(props) {
         />
       }
       <div className="column size-1of2">
-        <h3 className="heading marginTz">{props.title} {renderOfflineItem}</h3>
-        <ul className="list marginAz">
+        <h3 className="heading margin-tz">{props.title} {renderOfflineItem}</h3>
+        <ul className="list margin-z">
           <li className="text-default">{props.description}</li>
           <li className="monotype text-small color-editor-blue">{props.hashtags}</li>
         </ul>

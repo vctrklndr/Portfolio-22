@@ -1,17 +1,15 @@
 import Header from './Components/Header';
-import Portfolio from './Components/Portfolio';
-import Logos from './Components/Logos';
+import Main from './Components/Main';
+import Footer from './Components/Footer';
 import "./Assets/Styles/App.scss";
 
 function App() {
   return (
-    <main className="app">
-      <div className="container">
-        <Header />
-        <Portfolio />
-        <Logos />
-      </div>
-    </main>
+    <div className="app">
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   );
 }
 

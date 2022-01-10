@@ -1,0 +1,25 @@
+.link {
+  color: var(--black);
+  text-decoration: none;
+  span {
+    position: relative;
+    display: inline-block;
+    &:before {
+      content: "";
+      background-color: var(--yellow);
+      width: 0;
+      height: 100%;
+      display: block;
+      position: absolute;
+      z-index: -1;
+      transition: width 300ms ease-in-out;
+    }
+  }
+  &:hover {
+    span {
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+}

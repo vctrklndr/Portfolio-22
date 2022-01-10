@@ -1,5 +1,5 @@
-import Section from "./Section";
 import { Data } from './Data';
+import Section from "./Section";
 
 function Portfolio() {
   const renderSections = Data.map((data, index) =>
