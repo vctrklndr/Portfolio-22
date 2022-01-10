@@ -1,16 +1,16 @@
-import Wexter from '../Assets/Images/wexter.png';
-import Upstream from '../Assets/Images/upstream.png';
-import Efemia from '../Assets/Images/efemia.png';
+import Wexter from '../Assets/Images/wexter.jpg';
+import Upstream from '../Assets/Images/upstream.jpg';
+import Efemia from '../Assets/Images/efemia.jpg';
 import Verbal from '../Assets/Images/verbal.jpg';
 import SectorAlarm from '../Assets/Images/sector_alarm.jpg';
 import Beambox from '../Assets/Images/beambox.jpg';
 import NickeBorg from '../Assets/Images/nicke_borg.jpg';
-import Musikinstitutet from '../Assets/Images/music.png';
+import Musikinstitutet from '../Assets/Images/music.jpg';
 import Dashboard from '../Assets/Images/dashboard.jpg';
-import PunkBeer from '../Assets/Images/punk_beer.png';
-import iChores from '../Assets/Images/ichores.png';
-import Washi from '../Assets/Images/washi.png';
-import MobergsBistro from '../Assets/Images/mobergs_bistro.png';
+import PunkBeer from '../Assets/Images/punk_beer.jpg';
+import iChores from '../Assets/Images/ichores.jpg';
+import Washi from '../Assets/Images/washi.jpg';
+import MobergsBistro from '../Assets/Images/mobergs_bistro.jpg';
 
 export const Data = [
   {

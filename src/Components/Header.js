@@ -8,8 +8,17 @@ function Header() {
               Victor Kilander
             </span>
           </h1>
-          <p className="monotype marginBz color-editor-green">
+          {/* <p className="monotype marginBz color-editor-green">
             FRONT END DEVELOPER – Blippin' 'n bloppin' since 2018
+          </p> */}
+          <p class="monotype marginBz color-editor-green">
+            Closing
+            <span class="color-editor-red">
+              <span class="color-editor-teal"> &lt;/</span>
+              div
+              <span class="color-editor-teal">&gt;</span>
+            </span>
+            's since 2018
           </p>
           <p className="monotype text-small marginAz color-editor-teal">
             #html5 #css #sass #less #js #jquery #php #git
