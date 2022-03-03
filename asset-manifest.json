@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-22/static/css/main.1d56d009.css",
-    "main.js": "/Portfolio-22/static/js/main.b7d0da2b.js",
+    "main.js": "/Portfolio-22/static/js/main.feb0b94a.js",
     "static/media/dashboard.jpg": "/Portfolio-22/static/media/dashboard.5d6dc3b65d2c15971a90.jpg",
     "static/media/wexter.jpg": "/Portfolio-22/static/media/wexter.3a3dd44ae70dc47e171e.jpg",
     "static/media/nicke_borg.jpg": "/Portfolio-22/static/media/nicke_borg.373d7fb2efd6ec41ee19.jpg",
@@ -14,6 +14,7 @@
     "static/media/punk_beer.jpg": "/Portfolio-22/static/media/punk_beer.bac4c657042fd4cacce5.jpg",
     "static/media/music.jpg": "/Portfolio-22/static/media/music.4c7e77d489d7fc116f49.jpg",
     "static/media/mobergs_bistro.jpg": "/Portfolio-22/static/media/mobergs_bistro.656268d4012a1ca6ed97.jpg",
+    "static/media/the_rainforest.jpg": "/Portfolio-22/static/media/the_rainforest.7f242fa5353c6f5c6aaa.jpg",
     "static/media/washi.jpg": "/Portfolio-22/static/media/washi.186737c4ebe701ef4bb9.jpg",
     "static/media/ichores.jpg": "/Portfolio-22/static/media/ichores.132671f5375586a72fdc.jpg",
     "static/media/mw-logo.png": "/Portfolio-22/static/media/mw-logo.5877fc6895114b444eb2.png",
@@ -21,10 +22,10 @@
     "index.html": "/Portfolio-22/index.html",
     "static/media/cursor-pointer.svg": "/Portfolio-22/static/media/cursor-pointer.2bfcb5b16e18b14b9029.svg",
     "main.1d56d009.css.map": "/Portfolio-22/static/css/main.1d56d009.css.map",
-    "main.b7d0da2b.js.map": "/Portfolio-22/static/js/main.b7d0da2b.js.map"
+    "main.feb0b94a.js.map": "/Portfolio-22/static/js/main.feb0b94a.js.map"
   },
   "entrypoints": [
     "static/css/main.1d56d009.css",
-    "static/js/main.b7d0da2b.js"
+    "static/js/main.feb0b94a.js"
   ]
 }
