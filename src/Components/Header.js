@@ -8,12 +8,12 @@ function Header() {
               Victor Kilander
             </span>
           </h1>
-          <p class="monotype margin-bz color-almost-white">
+          <p className="monotype margin-bz color-almost-white">
             Closing
-            <span class="color-editor-red">
-              <span class="color-editor-teal"> &lt;/</span>
+            <span className="color-editor-red">
+              <span className="color-editor-teal"> &lt;/</span>
               div
-              <span class="color-editor-teal">&gt;</span>
+              <span className="color-editor-teal">&gt;</span>
             </span>
             's since 2018
           </p>

@@ -1,3 +1,4 @@
+import TheRainforest from '../Assets/Images/the_rainforest.jpg';
 import Wexter from '../Assets/Images/wexter.jpg';
 import Upstream from '../Assets/Images/upstream.jpg';
 import Efemia from '../Assets/Images/efemia.jpg';
@@ -13,6 +14,14 @@ import Washi from '../Assets/Images/washi.jpg';
 import MobergsBistro from '../Assets/Images/mobergs_bistro.jpg';
 
 export const Data = [
+  {
+    "image": TheRainforest,
+    "title": "The Rainforest – Empowered by Saab",
+    "href": "https://www.thernfrst.io",
+    "description": "New website for The Rainforest",
+    "hashtags": "#html #php #css #sass #js #jquery #wordpress",
+    "colors": ["bg-editor-green", "bg-green"]
+  },
   {
     "image": Wexter,
     "title": "Wexter",
