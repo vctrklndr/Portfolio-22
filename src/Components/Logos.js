@@ -2,7 +2,7 @@ import Dazy from '../Assets/Images/dazy-logo.png';
 import Frojd from '../Assets/Images/frojd-logo.svg';
 import MakingWaves from '../Assets/Images/mw-logo.png';
 
-function Logos() {
+const Logos = () => {
   return (
     <section className="section padding-bz text-center">
       <h3 className="text-border inline-block">Places I've been</h3>

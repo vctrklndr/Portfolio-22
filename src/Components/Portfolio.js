@@ -1,7 +1,7 @@
 import { Data } from './Data';
 import Section from "./Section";
 
-function Portfolio() {
+const Portfolio = () => {
   const renderSections = Data.map((data, index) =>
     <Section
       key={data.title}

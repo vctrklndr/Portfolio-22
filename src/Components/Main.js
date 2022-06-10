@@ -1,5 +1,5 @@
 import Portfolio from './Portfolio';
-function Main() {
+const Main = () => {
   return (
     <main>
       <Portfolio />

@@ -1,7 +1,7 @@
 import ImageLinkedCard from "./ImageLinkedCard";
 import ImageCard from "./ImageCard";
 
-function Section(props) {
+const Section = (props) => {
   const isReversed = props.reverse;
   const cardShadows = props.shadowColors.map((color) =>
     <div key={color} className={"card-shadow " + color} />

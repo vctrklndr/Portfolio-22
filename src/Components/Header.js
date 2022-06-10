@@ -1,4 +1,4 @@
-function Header() {
+const Header = () => {
   return (
     <header>
       <div className="column size-1of1">
