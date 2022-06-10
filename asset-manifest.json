@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-22/static/css/main.1d56d009.css",
-    "main.js": "/Portfolio-22/static/js/main.feb0b94a.js",
+    "main.js": "/Portfolio-22/static/js/main.9d5f6c5a.js",
     "static/media/dashboard.jpg": "/Portfolio-22/static/media/dashboard.5d6dc3b65d2c15971a90.jpg",
     "static/media/wexter.jpg": "/Portfolio-22/static/media/wexter.3a3dd44ae70dc47e171e.jpg",
     "static/media/nicke_borg.jpg": "/Portfolio-22/static/media/nicke_borg.373d7fb2efd6ec41ee19.jpg",
@@ -18,14 +18,15 @@
     "static/media/washi.jpg": "/Portfolio-22/static/media/washi.186737c4ebe701ef4bb9.jpg",
     "static/media/ichores.jpg": "/Portfolio-22/static/media/ichores.132671f5375586a72fdc.jpg",
     "static/media/mw-logo.png": "/Portfolio-22/static/media/mw-logo.5877fc6895114b444eb2.png",
+    "static/media/frojd-logo.svg": "/Portfolio-22/static/media/frojd-logo.4995be33c2dcadae90cac287e49c3139.svg",
     "static/media/cursor-auto.svg": "/Portfolio-22/static/media/cursor-auto.5ef686a9941e7bad4e61.svg",
     "index.html": "/Portfolio-22/index.html",
     "static/media/cursor-pointer.svg": "/Portfolio-22/static/media/cursor-pointer.2bfcb5b16e18b14b9029.svg",
     "main.1d56d009.css.map": "/Portfolio-22/static/css/main.1d56d009.css.map",
-    "main.feb0b94a.js.map": "/Portfolio-22/static/js/main.feb0b94a.js.map"
+    "main.9d5f6c5a.js.map": "/Portfolio-22/static/js/main.9d5f6c5a.js.map"
   },
   "entrypoints": [
     "static/css/main.1d56d009.css",
-    "static/js/main.feb0b94a.js"
+    "static/js/main.9d5f6c5a.js"
   ]
 }
