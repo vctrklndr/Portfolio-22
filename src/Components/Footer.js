@@ -5,19 +5,11 @@ const Footer = () => {
       <Logos />
       <div className="text-center">
         <p className="text-small">
-          Blip blop –{" "}
-          <a
-            className="link"
-            href="https://github.com/vctrklndr"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>github.com/vctrklndr</span>
-          </a>
+          Blip blop – <a className="link" href="https://github.com/vctrklndr" target="_blank" rel="noreferrer"><span>github.com/vctrklndr</span></a>
         </p>
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
