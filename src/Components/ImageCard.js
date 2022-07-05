@@ -1,11 +1,13 @@
-const ImageCard = (props) => {
+const ImageCard = ({ columnClasses, cardClasses, image, title, colors }) => {
   return (
-    <div className={"column size-1of2" + (!props.reversed ? " order-1" : "")}>
-      <div className={"card" + (props.reversed ? " card--reverse" : "")}>
+    <div className={columnClasses}>
+      <div className={cardClasses}>
         <div className="card-image">
-          <img src={props.imageURL} alt={props.title} />
+          <img src={image} alt={title} />
         </div>
-        {props.shadows}
+        {colors.map((color, i) => (
+          <div key={i} className={"card-shadow " + color} />
+        ))}
       </div>
     </div>
   );
