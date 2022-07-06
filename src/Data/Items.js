@@ -21,7 +21,7 @@ const Items = [
     description: "New website for The Rainforest",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
     colors: ["bg-editor-green", "bg-green"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: Wexter,
@@ -30,7 +30,7 @@ const Items = [
     description: "New website and frontend for new Wexter web",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
     colors: ["bg-gold", "bg-almost-white"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: Upstream,
@@ -39,7 +39,7 @@ const Items = [
     description: "New website and frontend for new Upstream web",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
     colors: ["bg-baby-blue", "bg-blue"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: Efemia,
@@ -48,7 +48,7 @@ const Items = [
     description: "New website and frontend for new Efemia web",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
     colors: ["bg-pink", "bg-light-pink"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: Verbal,
@@ -57,7 +57,7 @@ const Items = [
     description: "Frontend for Verbal web",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
     colors: ["bg-purple", "bg-pink"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: SectorAlarm,
@@ -66,7 +66,7 @@ const Items = [
     description: "Frontend for Sector Alarms new public web",
     hashtags: "#html #nunjucks #fractal #css #less #js #vanilla #jquery",
     colors: ["bg-almost-white", "bg-red"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: Beambox,
@@ -75,7 +75,7 @@ const Items = [
     description: "Frontend for Beambox web",
     hashtags: "#html #razor #css #less",
     colors: ["bg-purple", "bg-light-pink"],
-    offline: true,
+    isOffline: true,
   },
   {
     image: NickeBorg,
@@ -84,7 +84,7 @@ const Items = [
     description: "Basic new website for Nicke Borg Homeland",
     hashtags: "#html #css",
     colors: ["bg-teal", "bg-blue"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: Musikinstitutet,
@@ -93,7 +93,7 @@ const Items = [
     description: "School assignment in Vanilla JS",
     hashtags: "#html #css #sass #js #vanilla",
     colors: ["bg-pink", "bg-purple"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: Dashboard,
@@ -102,7 +102,7 @@ const Items = [
     description: "School assignment for a dashboard in React JS",
     hashtags: "#html #css #sass #js #vanilla",
     colors: ["bg-pink", "bg-blue"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: PunkBeer,
@@ -111,7 +111,7 @@ const Items = [
     description: "School assignment handling API in Ajax JS",
     hashtags: "#html #css #sass #js #vanilla",
     colors: ["bg-light-pink", "bg-gold"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: iChores,
@@ -120,7 +120,7 @@ const Items = [
     description: "School assignment for a to do list in Vanilla JS",
     hashtags: "#html #css #sass #js #vanilla",
     colors: ["bg-baby-blue", "bg-pink"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: Washi,
@@ -129,7 +129,7 @@ const Items = [
     description: "School assignment making a laundry booking system",
     hashtags: "#html #css #less #js #vue",
     colors: ["bg-blue", "bg-almost-white"],
-    offline: null,
+    isOffline: false,
   },
   {
     image: MobergsBistro,
@@ -138,7 +138,7 @@ const Items = [
     description: "Website for restaurant Mobergs Bistro",
     hashtags: "#html #php #css #sass #js #jquery",
     colors: ["bg-teal", "bg-purple"],
-    offline: true,
+    isOffline: true,
   },
 ];
 

@@ -4,7 +4,7 @@ const Portfolio = ({ items }) => {
   return (
     <>
       {items.map((item, i) => (
-        <Section key={i} reverse={i % 2 === 1 ? true : false} {...item} />
+        <Section key={i} isReversed={i % 2 === 1 ? true : false} {...item} />
       ))}
     </>
   );

@@ -4,22 +4,21 @@ import ImageLinkedCard from "./ImageLinkedCard";
 import ImageCard from "./ImageCard";
 
 const Section = ({
-  reverse,
+  isReversed,
   image,
   title,
   href,
   description,
   hashtags,
   colors,
-  offline,
+  isOffline,
 }) => {
-  const isReversed = !!reverse;
-
   const columnClasses = classNames("column", "size-1of2", {
     "order-1": !isReversed,
   });
 
-  const cardClasses = classNames("card", "card-link", {
+  const cardClasses = classNames("card", {
+    "card-link": !isOffline,
     "card--reverse": isReversed,
   });
 
@@ -37,12 +36,12 @@ const Section = ({
     title: title,
     description: description,
     hashtags: hashtags,
-    offline: offline,
+    isOffline: isOffline,
   };
 
   return (
     <section className="grid align-center">
-      {offline ? (
+      {isOffline ? (
         <ImageCard {...cardAttributes} />
       ) : (
         <ImageLinkedCard {...cardAttributes} />
@@ -52,11 +51,11 @@ const Section = ({
   );
 };
 
-const TextBlock = ({ title, description, hashtags, offline }) => {
+const TextBlock = ({ title, description, hashtags, isOffline }) => {
   return (
     <div className="column size-1of2">
       <h3 className="heading margin-tz">
-        {title} {!!offline && <span className="text-offline">[Offline]</span>}
+        {title} {isOffline && <span className="text-offline">[Offline]</span>}
       </h3>
       <ul className="list margin-z">
         <li className="text-default">{description}</li>
