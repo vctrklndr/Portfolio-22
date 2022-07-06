@@ -1,20 +1,22 @@
-import footer from "../Data/Footer";
+import data from "../Data/Footer";
 
 const Footer = () => {
+  const { present, past, frojd, dazy, makingWaves, blipBlop } = data;
+
   return (
     <footer>
       <section className="section padding-bz text-center">
-        <Heading {...footer.present} />
+        <Heading {...present} />
         <div className="grid align-center justify-center">
-          <Logo {...footer.frojd} />
+          <Logo {...frojd} />
         </div>
-        <Heading {...footer.past} />
+        <Heading {...past} />
         <div className="grid align-center justify-center">
-          <Logo {...footer.dazy} />
-          <Logo {...footer.makingWaves} />
+          <Logo {...dazy} />
+          <Logo {...makingWaves} />
         </div>
       </section>
-      <BlipBlop />
+      <BlipBlop {...blipBlop} />
     </footer>
   );
 };
@@ -33,17 +35,13 @@ const Logo = ({ href, image, alt }) => {
   );
 };
 
-const BlipBlop = () => {
+const BlipBlop = ({ text, href, linkText }) => {
   return (
     <div className="text-center">
       <p className="text-small">
-        Blip blop –{" "}
-        <a
-          className="link"
-          href="https://github.com/vctrklndr"
-          rel="noreferrer"
-        >
-          <span>github.com/vctrklndr</span>
+        {text}
+        <a className="link" href={href} rel="noreferrer">
+          <span>{linkText}</span>
         </a>
       </p>
     </div>

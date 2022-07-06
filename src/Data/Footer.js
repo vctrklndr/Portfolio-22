@@ -24,6 +24,11 @@ const Footer = {
     image: MakingWaves,
     alt: "Making Waves",
   },
+  blipBlop: {
+    text: "Blip blop – ",
+    href: "https://github.com/vctrklndr",
+    linkText: "github.com/vctrklndr",
+  },
 };
 
 export default Footer;
