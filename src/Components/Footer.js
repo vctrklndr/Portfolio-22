@@ -42,13 +42,13 @@ const Logo = ({ href, image, alt, isLarge }) => {
   );
 };
 
-const BlipBlop = ({ text, href, linkText, linkedin }) => {
+const BlipBlop = ({ text, github, linkedin }) => {
   return (
     <>
       <p className="Footer__BlipBlop">
-        {text}
-        <a className="Footer__Link" href={href} rel="noreferrer">
-          <span>{linkText}</span>
+        {text + " "}
+        <a className="Footer__Link" href={github.href} rel="noreferrer">
+          <span>{github.linkText}</span>
         </a>
       </p>
       <a href={linkedin.href} rel="noreferrer">

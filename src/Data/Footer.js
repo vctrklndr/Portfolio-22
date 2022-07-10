@@ -34,13 +34,15 @@ const Footer = {
     },
   ],
   blipBlop: {
-    text: "Blip blop – ",
-    href: "https://github.com/vctrklndr",
-    linkText: "github.com/vctrklndr",
+    text: "Blip blop –",
+    github: {
+      href: "https://github.com/vctrklndr",
+      linkText: "github.com/vctrklndr",
+    },
     linkedin: {
-      href: 'https://www.linkedin.com/in/victor-kilander-788081162/',
-      linkText: 'Linkedin',
-    }
+      href: "https://www.linkedin.com/in/victor-kilander-788081162/",
+      linkText: "Linkedin",
+    },
   },
 };
 
