@@ -1,12 +1,3 @@
-::selection {
-  color: var(--white);
-  background-color: var(--purple);
-}
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
@@ -20,14 +11,16 @@ a {
   }
 }
 
-.section {
-  padding: 2rem 1rem;
-  @include breakpoint($large) {
-    padding: 4rem 5rem;
-  }
+* {
+  box-sizing: border-box;
 }
 
-.app {
+::selection {
+  color: var(--white);
+  background-color: var(--purple);
+}
+
+.App {
   margin: 0 auto;
   width: 100%;
   max-width: 77rem;

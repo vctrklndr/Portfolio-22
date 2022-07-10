@@ -7,7 +7,7 @@ import "./Assets/Styles/App.scss";
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Header {...header} />
       <main>
         <Portfolio items={items} />

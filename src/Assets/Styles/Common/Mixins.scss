@@ -1,9 +1,3 @@
-$baseFontSize: 16;
-
-$medium: 768px;
-$large: 920px;
-$xlarge: 1200px;
-
 @mixin breakpoint($breakpoint) {
   @media screen and (min-width: #{$breakpoint}) {
     @content;
@@ -11,28 +5,28 @@ $xlarge: 1200px;
 }
 
 $colors: (
-  "baby-blue": var(--baby-blue),
-  "blue": var(--blue),
-  "teal": var(--teal),
-  "green": var(--green),
-  "light-pink": var(--light-pink),
-  "pink": var(--pink),
-  "purple": var(--purple),
-  "yellow": var(--yellow),
-  "gold": var(--gold),
-  "orange": var(--orange),
-  "red": var(--red),
-  "almost-white": var(--almost-white),
-  "white": var(--white),
-  "black": var(--black),
-  "almost-black": var(--almost-black),
-  "editor-black": var(--editor-black),
-  "editor-blue": var(--editor-blue),
-  "editor-yellow": var(--editor-yellow),
-  "editor-green": var(--editor-green),
-  "editor-teal": var(--editor-teal),
-  "editor-red": var(--editor-red),
-  "editor-purple": var(--editor-purple),
+  "BabyBlue": var(--baby-blue),
+  "Blue": var(--blue),
+  "Teal": var(--teal),
+  "Green": var(--green),
+  "LightPink": var(--light-pink),
+  "Pink": var(--pink),
+  "Purple": var(--purple),
+  "Yellow": var(--yellow),
+  "Gold": var(--gold),
+  "Orange": var(--orange),
+  "Red": var(--red),
+  "AlmostWhite": var(--almost-white),
+  "White": var(--white),
+  "Black": var(--black),
+  "AlmostBlack": var(--almost-black),
+  "EditorBlack": var(--editor-black),
+  "EditorBlue": var(--editor-blue),
+  "EditorYellow": var(--editor-yellow),
+  "EditorGreen": var(--editor-green),
+  "EditorTeal": var(--editor-teal),
+  "EditorRed": var(--editor-red),
+  "EditorPurple": var(--editor-purple),
 );
 
 @mixin color-modifiers($attribute: "color", $prefix: "-") {

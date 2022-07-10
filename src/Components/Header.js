@@ -1,16 +1,20 @@
-const Header = ({ title, preamble, hashtags }) => {
+const Header = ({ title, hashtags }) => {
+  const preambleBlock = (
+    <>
+      Closing
+      <span className="Color-EditorTeal"> &lt;/</span>
+      <span className="Color-EditorRed">div</span>
+      <span className="Color-EditorTeal">&gt;</span>
+      's since 2018
+    </>
+  );
+
   return (
-    <header>
-      <div className="column size-1of1">
-        <div className="card-content bg-editor-black">
-          <h1 className="heading heading--large monotype text-uppercase margin-z">
-            <span className="color-editor-yellow">{title}</span>
-          </h1>
-          <p className="monotype margin-bz color-almost-white">{preamble}</p>
-          <p className="monotype text-small margin-z color-editor-teal">
-            {hashtags}
-          </p>
-        </div>
+    <header className="Code">
+      <div className="Code__Content">
+        <h1 className="Code__Heading ">{title}</h1>
+        <p className="Code__Preamble">{preambleBlock}</p>
+        <p className="Code__Hashtags">{hashtags}</p>
       </div>
     </header>
   );

@@ -1,51 +1,57 @@
-.card {
-  position: relative;
-  transform: translate(0, 0);
-  transition: 400ms transform ease-in-out;
-  &-link {
-    display: block;
-    &:hover {
-      @include breakpoint($medium) {
-        cursor: url("../../Images/cursor-pointer.svg"), pointer;
-        transform: translate(-0.5rem, 0.5rem);
-        .card-shadow {
-          transform: translate(0);
-        }
-      }
+.Card {
+  padding: 1rem;
+  width: 100%;
+
+  @include breakpoint($medium) {
+    padding: 1rem 1.5rem;
+    width: 50%;
+  }
+
+  @include breakpoint($large) {
+    padding: 2rem;
+  }
+
+  &--Order {
+    @include breakpoint($medium) {
+      order: 1;
     }
   }
-  &--reverse {
-    .card-shadow {
-      &:nth-child(2) {
-        transform: translate(0.5rem, 0.5rem);
-      }
-      &:nth-child(3) {
-        transform: translate(1rem, 1rem);
-      }
-    }
-    &.card-link {
-      &:hover {
-        @include breakpoint($medium) {
-          cursor: url("../../Images/cursor-pointer.svg"), pointer;
+
+  &__Inner {
+    position: relative;
+    transform: translate(0, 0);
+    transition: 400ms transform ease-in-out;
+
+    &:hover {
+      @include breakpoint($medium) {
+        transform: translate(-0.5rem, 0.5rem);
+
+        .Card--Reverse & {
           transform: translate(0.5rem, 0.5rem);
-          .card-shadow {
+        }
+
+        .Card--Offline & {
+          transform: translate(0);
+        }
+
+        &:not(.Card--Offline &) {
+          cursor: url("../../Images/cursor-pointer.svg"), pointer;
+          
+          .Card__Shadow {
             transform: translate(0);
           }
         }
       }
     }
   }
-  &-content {
-    padding: 1.5rem;
-    border: 0.125rem solid var(--editor-black);
-    border-radius: 0.625rem;
-    position: relative;
-    z-index: 3;
-    @include breakpoint($medium) {
-      padding: 2rem;
-    }
+
+  &__Link {
+    position: absolute;
+    inset: 0;
+    z-index: 9;
   }
-  &-image {
+
+  &__Image {
     padding-bottom: 56%;
     background-color: var(--black);
     border: 0.125rem solid var(--black);
@@ -53,6 +59,7 @@
     position: relative;
     z-index: 3;
     overflow: hidden;
+
     img {
       position: absolute;
       width: 100%;
@@ -61,8 +68,10 @@
       object-position: top;
     }
   }
-  &-shadow {
+
+  &__Shadow {
     display: none;
+
     @include breakpoint($medium) {
       display: block;
       width: 100%;
@@ -73,13 +82,23 @@
       border: 0.125rem solid var(--black);
       transform: translate(0, 0);
       transition: 400ms transform ease-in-out;
-      &:nth-child(2) {
+
+      &--0 {
         transform: translate(-0.5rem, 0.5rem);
         z-index: 2;
+
+        .Card--Reverse & {
+          transform: translate(0.5rem, 0.5rem);
+        }
       }
-      &:nth-child(3) {
+
+      &--1 {
         transform: translate(-1rem, 1rem);
         z-index: 1;
+
+        .Card--Reverse & {
+          transform: translate(1rem, 1rem);
+        }
       }
     }
   }

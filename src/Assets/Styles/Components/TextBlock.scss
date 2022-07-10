@@ -1,0 +1,42 @@
+.TextBlock {
+  padding: 0 1rem 1rem 1rem;
+  width: 100%;
+
+  @include breakpoint($medium) {
+    padding: 1rem 1.5rem;
+    width: 50%;
+  }
+
+  @include breakpoint($large) {
+    padding: 2rem;
+  }
+
+  &__Heading {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.17rem;
+
+    @include breakpoint($medium) {
+      margin-bottom: 1.125rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__Offline {
+    @extend %mono;
+    color: var(--red);
+    letter-spacing: 0.03125rem;
+  }
+
+  &__Description {
+    @extend %text-default;
+    margin: 0;
+  }
+
+  &__Hashtags {
+    @extend %mono;
+    @extend %text-small;
+    margin: 0;
+    color: var(--editor-blue);
+  }
+}

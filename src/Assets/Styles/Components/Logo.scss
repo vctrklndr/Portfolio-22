@@ -1,3 +1,33 @@
-.logo {
-  width: 100%;
+.Logo {
+  padding: 20px 10px;
+  width: 33%;
+
+  @include breakpoint($medium) {
+    padding: 12px;
+    width: 15%;
+  }
+
+  @include breakpoint($large) {
+    width: 10%;
+  }
+
+  &--Large {
+    @include breakpoint($medium) {
+      padding: 20px;
+      width: 20%;
+    }
+
+    @include breakpoint($large) {
+      width: 15%;
+    }
+  }
+
+  &__Image {
+    width: 100%;
+    transition: transform ease-in-out 400ms;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }

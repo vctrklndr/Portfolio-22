@@ -3,19 +3,16 @@
 @import "Common/Variables";
 @import "Common/Mixins";
 @import "Common/Base";
+@import "Common/Extensions";
 
 /* Components */
-@import "Components/Heading";
-@import "Components/Text";
-@import "Components/Link";
-@import "Components/List";
 @import "Components/Card";
-@import "Components/Circle";
-@import "Components/Record";
+@import "Components/Code";
+@import "Components/Footer";
+@import "Components/Header";
 @import "Components/Logo";
+@import "Components/Section";
+@import "Components/TextBlock";
 
 /* Utils */
 @import "Utils/Color";
-@import "Utils/Grid";
-@import "Utils/Space";
-@import "Utils/Display";

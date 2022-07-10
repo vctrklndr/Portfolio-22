@@ -1,7 +1,7 @@
-.bg {
+.BackgroundColor {
   @include color-modifiers("background", "-");
 }
 
-.color {
+.Color {
   @include color-modifiers("color", "-");
 }

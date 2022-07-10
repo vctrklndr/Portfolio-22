@@ -1,0 +1,48 @@
+.Code {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  @include breakpoint($medium) {
+    padding: 1rem 1.5rem;
+  }
+
+  @include breakpoint($large) {
+    padding: 2rem;
+  }
+
+  &__Content {
+    @extend %mono;
+    padding: 1.5rem;
+    width: 100%;
+    border-radius: 0.625rem;
+    background-color: var(--editor-black);
+    position: relative;
+
+    @include breakpoint($medium) {
+      padding: 2rem;
+    }
+  }
+
+  &__Heading {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--editor-yellow);
+    text-transform: uppercase;
+
+    @include breakpoint($medium) {
+      font-size: 2rem;
+    }
+  }
+
+  &__Preamble {
+    margin-bottom: 0;
+    color: var(--almost-white);
+  }
+
+  &__Hashtags {
+    @extend %text-small;
+    margin: 0;
+    color: var(--editor-teal);
+  }
+}

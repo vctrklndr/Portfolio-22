@@ -1,9 +1,29 @@
-.link {
+%mono {
+  font-family: "GT-Pressura-Mono-Regular", monospace;
+}
+
+%text-small {
+  font-size: 0.75rem;
+}
+
+%text-default {
+  font-size: 0.875rem;
+  letter-spacing: 0.03125rem;
+  line-height: 1.7;
+
+  @include breakpoint($medium) {
+    font-size: 1rem;
+  }
+}
+
+%link {
   color: var(--black);
   text-decoration: none;
+
   span {
     position: relative;
     display: inline-block;
+
     &:before {
       content: "";
       background-color: var(--yellow);
@@ -15,6 +35,7 @@
       transition: width 300ms ease-in-out;
     }
   }
+
   &:hover {
     span {
       &:before {

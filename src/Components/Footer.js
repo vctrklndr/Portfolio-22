@@ -1,50 +1,61 @@
+import React from "react";
+import classNames from "classnames";
+
 import data from "../Data/Footer";
+import Rudolf from "../Assets/Images/rudolf-aw-yeah.png";
 
 const Footer = () => {
-  const { present, past, frojd, dazy, makingWaves, blipBlop } = data;
+  const { items, blipBlop } = data;
 
   return (
-    <footer>
-      <section className="section padding-bz text-center">
-        <Heading {...present} />
-        <div className="grid align-center justify-center">
-          <Logo {...frojd} />
-        </div>
-        <Heading {...past} />
-        <div className="grid align-center justify-center">
-          <Logo {...dazy} />
-          <Logo {...makingWaves} />
-        </div>
-      </section>
+    <footer className="Footer">
+      {items.map((item, i) => (
+        <LogoBlock key={i} {...item} />
+      ))}
       <BlipBlop {...blipBlop} />
     </footer>
   );
 };
 
-const Heading = ({ text }) => {
-  return <h3 className="text-border inline-block margin-z">{text}</h3>;
+const LogoBlock = ({ title, logos }) => {
+  return (
+    <>
+      <h3 className="Footer__Heading">{title}</h3>
+      <div className="Footer__Logos">
+        {logos.map((logo, i) => (
+          <Logo key={i} {...logo} />
+        ))}
+      </div>
+    </>
+  );
 };
 
-const Logo = ({ href, image, alt }) => {
+const Logo = ({ href, image, alt, isLarge }) => {
+  const classes = classNames("Logo", { ["Logo--Large"]: isLarge });
+
   return (
-    <div className="column size-1of6">
+    <div className={classes}>
       <a href={href} rel="noreferrer">
-        <img className="logo" src={image} alt={alt} />
+        <img className="Logo__Image" src={image} alt={alt} />
       </a>
     </div>
   );
 };
 
-const BlipBlop = ({ text, href, linkText }) => {
+const BlipBlop = ({ text, href, linkText, linkedin }) => {
   return (
-    <div className="text-center">
-      <p className="text-small">
+    <>
+      <p className="Footer__BlipBlop">
         {text}
-        <a className="link" href={href} rel="noreferrer">
+        <a className="Footer__Link" href={href} rel="noreferrer">
           <span>{linkText}</span>
         </a>
       </p>
-    </div>
+      <a href={linkedin.href} rel="noreferrer">
+        <img className="Rudolf" src={Rudolf} aria-hidden />
+        <span className="sr-only">{linkedin.linkText}</span>
+      </a>
+    </>
   );
 };
 

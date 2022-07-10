@@ -20,7 +20,7 @@ const Items = [
     href: "https://www.thernfrst.io",
     description: "New website for The Rainforest",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
-    colors: ["bg-editor-green", "bg-green"],
+    colors: ["BackgroundColor-EditorGreen", "BackgroundColor-Green"],
     isOffline: false,
   },
   {
@@ -29,7 +29,7 @@ const Items = [
     href: "https://www.wexter.se",
     description: "New website and frontend for new Wexter web",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
-    colors: ["bg-gold", "bg-almost-white"],
+    colors: ["BackgroundColor-Gold", "BackgroundColor-AlmostWhite"],
     isOffline: false,
   },
   {
@@ -38,7 +38,7 @@ const Items = [
     href: "https://www.upstream.se",
     description: "New website and frontend for new Upstream web",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
-    colors: ["bg-baby-blue", "bg-blue"],
+    colors: ["BackgroundColor-BabyBlue", "BackgroundColor-Blue"],
     isOffline: false,
   },
   {
@@ -47,7 +47,7 @@ const Items = [
     href: "https://www.efemia.se",
     description: "New website and frontend for new Efemia web",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
-    colors: ["bg-pink", "bg-light-pink"],
+    colors: ["BackgroundColor-Pink", "BackgroundColor-LightPink"],
     isOffline: false,
   },
   {
@@ -56,7 +56,7 @@ const Items = [
     href: "https://www.verbal.se",
     description: "Frontend for Verbal web",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
-    colors: ["bg-purple", "bg-pink"],
+    colors: ["BackgroundColor-Purple", "BackgroundColor-Pink"],
     isOffline: false,
   },
   {
@@ -65,7 +65,7 @@ const Items = [
     href: "https://www.sectoralarm.se",
     description: "Frontend for Sector Alarms new public web",
     hashtags: "#html #nunjucks #fractal #css #less #js #vanilla #jquery",
-    colors: ["bg-almost-white", "bg-red"],
+    colors: ["BackgroundColor-AlmostWhite", "BackgroundColor-Red"],
     isOffline: false,
   },
   {
@@ -74,7 +74,7 @@ const Items = [
     href: "",
     description: "Frontend for Beambox web",
     hashtags: "#html #razor #css #less",
-    colors: ["bg-purple", "bg-light-pink"],
+    colors: ["BackgroundColor-Purple", "BackgroundColor-LightPink"],
     isOffline: true,
   },
   {
@@ -83,7 +83,7 @@ const Items = [
     href: "http://www.nickeborg.com",
     description: "Basic new website for Nicke Borg Homeland",
     hashtags: "#html #css",
-    colors: ["bg-teal", "bg-blue"],
+    colors: ["BackgroundColor-Teal", "BackgroundColor-Blue"],
     isOffline: false,
   },
   {
@@ -92,7 +92,7 @@ const Items = [
     href: "https://axelferb.github.io/Gruppuppgift_TBA/",
     description: "School assignment in Vanilla JS",
     hashtags: "#html #css #sass #js #vanilla",
-    colors: ["bg-pink", "bg-purple"],
+    colors: ["BackgroundColor-Pink", "BackgroundColor-Purple"],
     isOffline: false,
   },
   {
@@ -101,7 +101,7 @@ const Items = [
     href: "https://vctrklndr.github.io/React-Dashboard/",
     description: "School assignment for a dashboard in React JS",
     hashtags: "#html #css #sass #js #vanilla",
-    colors: ["bg-pink", "bg-blue"],
+    colors: ["BackgroundColor-Pink", "BackgroundColor-Blue"],
     isOffline: false,
   },
   {
@@ -110,7 +110,7 @@ const Items = [
     href: "https://vctrklndr.github.io/JavaScript-AJAX/",
     description: "School assignment handling API in Ajax JS",
     hashtags: "#html #css #sass #js #vanilla",
-    colors: ["bg-light-pink", "bg-gold"],
+    colors: ["BackgroundColor-LightPink", "BackgroundColor-Gold"],
     isOffline: false,
   },
   {
@@ -119,7 +119,7 @@ const Items = [
     href: "https://vctrklndr.github.io/JavaScript-to_do/",
     description: "School assignment for a to do list in Vanilla JS",
     hashtags: "#html #css #sass #js #vanilla",
-    colors: ["bg-baby-blue", "bg-pink"],
+    colors: ["BackgroundColor-BabyBlue", "BackgroundColor-Pink"],
     isOffline: false,
   },
   {
@@ -128,7 +128,7 @@ const Items = [
     href: "https://github.com/vctrklndr/washi",
     description: "School assignment making a laundry booking system",
     hashtags: "#html #css #less #js #vue",
-    colors: ["bg-blue", "bg-almost-white"],
+    colors: ["BackgroundColor-Blue", "BackgroundColor-AlmostWhite"],
     isOffline: false,
   },
   {
@@ -137,7 +137,7 @@ const Items = [
     href: "",
     description: "Website for restaurant Mobergs Bistro",
     hashtags: "#html #php #css #sass #js #jquery",
-    colors: ["bg-teal", "bg-purple"],
+    colors: ["BackgroundColor-Teal", "BackgroundColor-Purple"],
     isOffline: true,
   },
 ];

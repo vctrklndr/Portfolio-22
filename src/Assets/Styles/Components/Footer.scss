@@ -1,0 +1,38 @@
+.Footer {
+  padding: 2rem 1rem 0;
+  text-align: center;
+
+  @include breakpoint($large) {
+    padding: 4rem 5rem 0;
+  }
+
+  &__Heading {
+    margin: 0;
+    border-bottom: 0.125rem solid black;
+    display: inline-block;
+  }
+
+  &__Logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__Link {
+    @extend %link;
+  }
+
+  &__BlipBlop {
+    @extend %text-small;
+  }
+}
+
+.Rudolf {
+  width: 40px;
+  transition: transform ease-in-out 600ms;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
+}
