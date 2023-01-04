@@ -1,3 +1,4 @@
+import Jamtkraft from "../Assets/Images/jamtkraft.png";
 import TheRainforest from "../Assets/Images/the_rainforest.jpg";
 import Wexter from "../Assets/Images/wexter.jpg";
 import Upstream from "../Assets/Images/upstream.jpg";
@@ -14,6 +15,15 @@ import Washi from "../Assets/Images/washi.jpg";
 import MobergsBistro from "../Assets/Images/mobergs_bistro.jpg";
 
 const Items = [
+  {
+    image: Jamtkraft,
+    title: "Jämtkraft AB",
+    href: "https://www.jamtkraft.se",
+    description: "New website and frontend for Jämtkraft AB",
+    hashtags: "#html #css #sass #js #nextjs #react #python #django #wagtail",
+    colors: ["BackgroundColor-Teal", "BackgroundColor-BabyBlue"],
+    isOffline: false,
+  },
   {
     image: TheRainforest,
     title: "The Rainforest – Empowered by Saab",
