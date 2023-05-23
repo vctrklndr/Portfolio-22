@@ -1,4 +1,4 @@
-import Jamtkraft from "../Assets/Images/jamtkraft.png";
+import Jamtkraft from "../Assets/Images/jamtkraft.jpg";
 import TheRainforest from "../Assets/Images/the_rainforest.jpg";
 import Wexter from "../Assets/Images/wexter.jpg";
 import Upstream from "../Assets/Images/upstream.jpg";
