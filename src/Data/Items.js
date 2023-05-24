@@ -48,7 +48,7 @@ const Items = [
     href: "https://www.upstream.se",
     description: "New website and frontend for new Upstream web",
     hashtags: "#html #php #css #sass #js #jquery #wordpress",
-    colors: ["BackgroundColor-BabyBlue", "BackgroundColor-Blue"],
+    colors: ["BackgroundColor-AlmostWhite", "BackgroundColor-EditorYellow"],
     isOffline: false,
   },
   {
